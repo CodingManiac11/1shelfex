@@ -92,9 +92,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-Your Name - your.email@example.com
+Your Name - Aditya Utsav
 
-Project Link: [https://github.com/yourusername/shelfex](https://github.com/yourusername/shelfex)
+Project Link: [https://github.com/CodingManiac11/1shelfex.git](https://github.com/CodingManiac11/1shelfex.git)
 
 ## Deployment
 
