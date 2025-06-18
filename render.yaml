@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: shelfex-backend
+    env: node
+    buildCommand: cd server && npm install && npm run build
+    startCommand: cd server && npm start
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: CLIENT_URL
+        value: https://shelfex.vercel.app
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /api/health
+    autoDeploy: true 

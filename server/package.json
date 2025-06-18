@@ -1,0 +1,39 @@
+{
+  "name": "shelfex-server",
+  "version": "1.0.0",
+  "description": "Backend server for ShelfEx job application tracking system",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "rimraf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^6.9.1",
+    "sequelize": "^6.37.7",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.15.11",
+    "@types/nodemailer": "^6.4.8",
+    "nodemon": "^2.0.22",
+    "rimraf": "^4.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  }
+}
