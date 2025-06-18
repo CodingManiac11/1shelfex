@@ -2,7 +2,7 @@ import axios from 'axios';
 import { io, Socket } from 'socket.io-client';
 
 const API_URL = process.env.NODE_ENV === 'production'
-  ? 'https://shelfex-backend.onrender.com'
+  ? 'https://oneshelfex-2.onrender.com'
   : process.env.REACT_APP_API_URL || 'http://localhost:5000';
 
 // Create axios instance with default config
